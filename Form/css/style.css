@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* horizontal */
+
+    height: 100vh;
+
+    align-items: center; 
+    /* vertical */
+
+    padding: 20px;
+
+    text-align: center;
+    /* to bring Sign In in center */
+}
+#container{
+    background-color: aliceblue;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 14px 20px 5px rgb(209, 205, 205);
+    /* to bring shadow behind sign in box */
+    /* 14 top bottom, 20 left right, 5 shadow box blur size */
+    padding-top: 10px;
+}
+.brand-logo{
+    background: url(../images/profile1.png);
+    height: 100px;
+    width: 100px; 
+    margin: auto;
+    /* brings img in center */
+    
+    border-radius: 50%;
+    padding-top: 10px;
+}
+.brand-title{
+    color: rgb(54, 54, 237);
+}
+.inputs{
+    text-align: left;
+    padding-left: 30px;
+}
+label,button,input{
+    display: block;
+    /* to bring one below one..(next next line).. */
+    width: 90%;
+    border: none;
+    box-sizing: border-box;
+}
+label{
+    color: rgb(54, 54, 237);
+    margin: 10px;
+}
+label:nth-of-type(1)
+{
+    margin-top: 10px;
+} 
+/* to make top space for email alone */
+
+input{
+    padding: 13px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 9px rgb(191, 186, 186);
+}
+button{
+    background-color: rgb(54, 54, 237);
+    color: white;
+    margin-top: 40px;
+    border-radius:15px;
+    padding: 13px;
+    cursor: pointer;
+}
+footer{
+    color: black;
+    padding: 10px;
+    text-align: center;
+    
+    bottom:0;
+    position: fixed;
+    /* to fix the footor in the bottom */
+    width: 100%;
+}
