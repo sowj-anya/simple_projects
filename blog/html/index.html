@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="This is a blog">
+    <title>Blog</title>
+    <!-- internal -->
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background:linear-gradient(red,blue,green);
+            /* to mix 3 colors */
+            font-family:'Times New Roman', Times, serif;
+        }
+        header{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding:10px 2px;
+            /* 10 - top , 2 - left and right*/
+        }
+        main{
+            max-width: 550px;
+            /* when we minimize it remains in same width */
+
+            margin: auto;
+            /* container outer */
+
+            padding: 10px;
+        }
+        .post{
+            background-color: white;
+            color: black;
+            padding: 15px;
+            margin: 20px;
+            /* outside box space */
+            border-radius: 10px;
+        }
+        .post img{
+            margin-left: 35px;
+            height:250px;
+            width:400px;
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+            /* align equal space on both left and right side  */
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding:10px;
+
+            /* to make the footer fixed at the bottom use the 3 */
+            position: fixed;
+            bottom:0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Simple Blog</h1>
+    </header>
+    <main>
+         <!-- section 1 -->
+        <article class="post">
+            <h2>Exploring the Beatuy of Nature</h2>
+            <img src="../images/nature.jpg">
+            <p>The absence of a deep emotional connection between humans and the natural world is at the root of the environmental crisis.Can you think of a place in nature that you know really well?Close your eyes for a moment and see what comes up.Can you visualise the place in exquisite detail? The sounds, the colours, the smells, the subtleties that only you know.</p>
+        </article>
+        <!-- section 2 -->
+        <article class="post">
+            <h2>Exploring the Beatuy of Sky</h2>
+            <img src="../images/sky.jpg">
+            <p>The scattering caused by these tiny air molecules (known as Rayleigh scattering) increases as the wavelength of light decreases. Violet and blue light have the shortest wavelengths and red light has the longest. Therefore, blue light is scattered more than red light and the sky appears blue during the day.</p>
+        </article>
+        <!-- section 3 -->
+        <article class="post">
+            <h2>Exploring the Beatuy of Ocean</h2>
+            <img src="../images/ocean.avif">
+            <p>Ocean is a huge body of salt water. Oceans cover nearly 71 percent of Earth's surface. They contain almost 98 percent of all the water on Earth. There is one world ocean, but it is divided into five main areas: the Pacific, the Atlantic, the Indian, the Arctic, and the Southern, or Antarctic.</p>
+        </article>
+    </main>
+    <footer>
+        &#11088; Designed by Sowjanya K &#11088;
+    </footer>
+</body>
+</html>
