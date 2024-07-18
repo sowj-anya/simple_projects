@@ -1,0 +1,75 @@
+body{
+    margin:0;   
+    /* to remove outside space */
+    padding:0;
+    /* to remove inside space */
+}
+header{
+    background-color: black;
+    color: white;
+    padding:16px 0;
+    text-align: center;
+}
+/* to remove bullets */
+ul{
+    list-style-type: none;
+}
+/* to make header in a single line . Inline -> one line */
+ul li{
+    display: inline;
+    margin-right: 100px;
+}
+ul li a{
+    text-decoration:none; 
+    /* to remove link blue line under text */
+    color: white;
+    font-weight: bold;
+    font-size:20px;
+}
+
+/* container ... id->#, class->. */
+#products{
+    display: flex;
+    /* to make imgs horizontal */
+
+    justify-content: space-around;
+    /* to make space between images */
+}
+
+.product{
+    border: 2px solid;
+    /* to make a black border around img */
+
+    padding:15px;
+    margin: 20px;
+    /* to make a even space outside img box*/
+ 
+    text-align: center;
+    border-radius: 10px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding:10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+/* when we keep the cursor on button it chnages to blue color */
+button:hover{
+    background-color: blue;
+    cursor: pointer;
+    /* to change icon when we keep the mouse there */
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+    bottom:0;
+    position: fixed;
+    /* to fix the footor in the bottom */
+    width: 100%;
+}
