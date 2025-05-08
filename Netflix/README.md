@@ -13,5 +13,5 @@ To get started, clone this repository and open index.html in vs code.
 + *Select Open with Live Server*
 
 ### *Output :*
-  ![Sample Output](Netflix/img1.png)
-  ![Sample Output](Netflix/img2.png)
+  ![Sample Output](img1.png)
+  ![Sample Output](img2.png)
