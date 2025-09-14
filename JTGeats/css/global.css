@@ -1,0 +1,144 @@
+/* ==============================
+GLOBAL.CSS - (Variables + Base + Utilities)
+ITCSS: Variables → Base → Utilities
+================================= */
+
+
+/* 🟢 1. SETTINGS (Variables) */
+:root {
+
+    /*========== Colors [HEX] ==========*/
+    --primary-color: #1AC073;
+    --secondary-color: #2EBF91;
+    --tertiary-color: #F3BA00;
+    --primary-white: #F0FAF7;
+    --secondary-white: #F7F8FA;
+
+    /*========== Font and typography ==========*/
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'Montserrat', sans-serif;
+}
+
+
+/* 🟢 2. BASE (Reset & Typography) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primary);
+    font-weight: 400;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 🟢 3. UTILITIES (Helper Classes) */
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.centerBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sectionHeading {
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    margin-bottom: clamp(2rem, 5vw, 4rem);
+    font-weight: 900;
+}
+
+
+.border {
+    border: 1px solid red;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    font-weight: 700;
+    border: 2px solid var(--primary-color);
+    background-color: #fff;
+}
+
+
+.btn__primary {
+    background-color: var(--primary-color);
+    color: var(--primary-white);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        padding: 0 2rem;
+    }
+
+    .btnContainer {
+        margin-top: 8rem;
+    }
+
+}
+
+
+@media screen and (min-width: 1280px) {
+
+    .container {
+        padding: 0 6rem;
+    }
+
+}
