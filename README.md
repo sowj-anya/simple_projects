@@ -16,8 +16,9 @@ This repository contains a collection of simple and beginner-friendly projects �
 - 🔐 **Login & Register Page (HTML, CSS, JavaScript)**  
   A functional login and registration form with basic JavaScript validation.  
 
-- 📌 **JTGeats Page (HTML, CSS, JavaScript)**
-  A responsive and dynamic home food delivery website built with HTML, CSS, and JavaScript, following best practices for clean structure, scalability, and performance.  
+- 📌 **JTGeats (HTML, CSS, JavaScript)**  
+A responsive and dynamic home food delivery website built with HTML, CSS, and JavaScript, following best practices for clean structure, scalability, and performance.  
+  
 
 ## 🎯 About This Repository  
 All the projects in this repository were designed and developed by **me** ✨ as part of my learning journey in web development. They serve as practice projects and a portfolio showcase of my growing skills.  
