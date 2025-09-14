@@ -9,7 +9,7 @@ This project is a responsive, well-structured website built with **HTML, CSS, an
 - **JavaScript (ES6+)** → Enhancing interactivity and dynamic behavior  
 
 ## Output video
-./assets/video/media1.mp4
+https://github.com/user-attachments/assets/20befbea-c91e-47fb-941f-5179b6a742a4
 
 ## 🎯 Best Practices Followed  
 
